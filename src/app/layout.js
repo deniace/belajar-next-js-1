@@ -25,25 +25,8 @@ export default function RootLayout({ children }) {
                 className={`${geistSans.variable} ${geistMono.variable} antialiased`}
             >
                 <Navbar />
-                asdf
-                <div>
-                    <div className="text-center">
-                        <h1 className="text-4xl">Judul</h1>
-                    </div>
-                    {children}
-                </div>
-                <p className="text-xs">
-                    the quick brown fox jump over the lazy dog
-                </p>
-                <p className="text-sm">
-                    the quick brown fox jump over the lazy dog
-                </p>
-                <p className="text-base">
-                    the quick brown fox jump over the lazy dog
-                </p>
-                <p className="text-lg">
-                    the quick brown fox jump over the lazy dog
-                </p>
+
+                {children}
             </body>
         </html>
     );
